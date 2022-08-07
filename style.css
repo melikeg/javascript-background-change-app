@@ -30,8 +30,14 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
+    align-items: center;
 }
-
+.inputs a {
+    color: #efefef;
+}
+.inputs a:hover {
+    color: #b7b7b7 ;
+}
 .color_code_box {
     display: flex;
     justify-content: space-between;
@@ -78,8 +84,15 @@ input[type=file] {
     display: none;
 }
 
-.img {
-    visibility: hidden;
+.camera {
+    font-size: 40px;
 }
-
-
+.camera:hover {
+    color: #b7b7b7 ;
+}
+.copy:hover {
+    color: #b7b7b7 ;
+}
+.material-symbols-outlined {
+    cursor: pointer;
+}
